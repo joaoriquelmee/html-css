@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /*Definindo as medidas de LARGURA MÁXIMA e MINÍMA para tornar o SITE RESPONSIVO  */
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+        
+        /*Comando para tornar as imagens responsivas e evitar que elas quebrem (escapem) a DIV */
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sed quae hic molestiae dolores expedita? Alias repellat iusto id harum laborum, cumque adipisci ex at qui rerum explicabo obcaecati ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quisquam voluptatibus debitis provident illum! Harum provident minima dolorum magnam necessitatibus impedit unde itaque deserunt autem sapiente esse ratione, architecto atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda eaque tempora, nesciunt laboriosam laborum magni aliquid possimus culpa qui saepe beatae ipsam temporibus fuga obcaecati nulla consequatur quos provident.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sed quae hic molestiae dolores expedita? Alias repellat iusto id harum laborum, cumque adipisci ex at qui rerum explicabo obcaecati ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quisquam voluptatibus debitis provident illum! Harum provident minima dolorum magnam necessitatibus impedit unde itaque deserunt autem sapiente esse ratione, architecto atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda eaque tempora, nesciunt laboriosam laborum magni aliquid possimus culpa qui saepe beatae ipsam temporibus fuga obcaecati nulla consequatur quos provident.</p>
+    </main>
+</body>
+</html>

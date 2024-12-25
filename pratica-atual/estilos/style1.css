@@ -1,0 +1,507 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --Bebas: 'Bebas Neue', 'cursive';
+    --Roboto: 'Roboto', 'sans-serif';
+    --Alkatra: 'Alkatra', 'cursive';
+
+    --cor1degrade: #45C4B0;
+    --cor2degrade: #9AEBA3;
+    --cor3degrade: #DAFDBA;
+    --preto: black;
+    --branco: white;
+    --cordomain: rgba(255, 255, 255, 0.425);
+    --corbotaoinicio: #49C6AF;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor1degrade), var(--cor2degrade), var(--cor3degrade));
+    background-attachment: fixed;
+    text-align: center;
+}
+
+ body .imgsnormais {
+    width: 20%;
+}
+
+body .fotoslabum {
+    width: 30%;
+}
+
+body p, li, dt, dd, a {
+    font-family: var(--Roboto);
+}
+
+header {
+    min-height: 280px;
+    background-color: var(--preto);
+    color: var(--branco);
+    margin: -21px -8px 0px -8px;
+    padding-top: 30px;
+}
+
+header > h1 {
+    font-family: var(--Bebas);
+    color: var(--branco);
+    font-size: 4em;
+    padding-top: 48px;
+}
+
+nav {
+    text-align: left;
+    background-color: black;
+    margin: 0px -8px 0px -8px;
+    padding-bottom: 11px;
+    padding-left: 8px;
+}
+
+nav > a {
+    font-family: var(--Bebas);
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+nav > a:hover {
+    background-color: var(--branco);
+    color: var(--preto);
+    margin: 0px 5px 0px 5px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.425);
+    max-width: 1050px;
+    min-width: 280px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+main > h1, h2, h3 {
+    font-family: var(--Alkatra);
+}
+
+main > h1 {
+    font-size: 3em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.l1, .l2, .l3 {
+    width: 200px;
+    height: 200px; 
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.l1:hover, .l2:hover, .l3:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.l1, .l2, .l3 > p {
+    padding-top: 20px;
+}
+
+.l1 {
+    display: inline-block
+}
+
+.l2 {
+    display: inline-block
+}
+
+.l3 {
+    display: inline-block
+}
+
+.textdivs {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#hover2 {
+    width: 200px;
+    height: 200px;
+    font-weight: bolder;
+    font-size: 2em;
+    background-color: black;
+    color: black;
+    border-radius: 10px;
+    margin-left: 430px;
+}
+
+#hover2 > p {
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+
+#hover2:hover {
+    color: white;
+}
+
+.linksafter {
+    font-family: var(--Bebas);
+    font-size: 2em;
+    display: block;
+    line-height: 41px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 360px;
+    margin-bottom: 10px;
+    margin-left: 343px;
+}
+
+.linksafter::before {
+    content: '➡';
+    color: white;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+
+.linksafter::after {
+    content: '⬅';
+    color: white;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+}
+
+.linksafter:hover::before {
+    color: red;
+}
+
+.linksafter:hover::after {
+    color: red;
+}
+
+.aframe {
+    display: block;
+    padding: 5px;
+    font-size: 22px;
+}
+
+#agreen {
+    color: green;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px black;
+}
+
+#ablue {
+    color: blue;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px black;
+}
+
+#ared {
+    color: rgb(107, 2, 2);
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px black;
+}
+
+iframe#tela {
+    width: 830px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    cursor: pointer;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(39, 38, 38);
+    border: 1px solid black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+caption:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+thead {
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+thead th:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th#pop {
+    width: 50px;
+}
+
+td {
+    text-align: left;
+}
+
+#SP:hover {
+    background-image: url(../bandeiras/SP.png);
+    background-size: cover;
+    background-position: center top;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+}
+
+#MG:hover {
+    background-image: url(../bandeiras/MG.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px black;
+}
+
+#RJ:hover {
+    background-image: url(../bandeiras/RJ.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+}
+
+#BA:hover {
+    background-image: url(../bandeiras/BA.png);
+    background-size: cover;
+    background-position: left center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+}
+
+#PR:hover {
+    background-image: url(../bandeiras/PR.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+}
+
+#RS:hover {
+    background-image: url(../bandeiras/RS.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+#PE:hover {
+    background-image: url(../bandeiras/PE.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+#CE:hover {
+    background-image: url(../bandeiras/CE.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px black;
+}
+
+#PA:hover {
+    background-image: url(../bandeiras/PA.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+#SC:hover {
+    background-image: url(../bandeiras/SC.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-left: 55px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+td.num {
+    text-align: center;
+}
+
+td.num:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+}
+
+tfoot {
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+.footcor:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+
+#botaoinicio {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 249px;
+    margin-top: 52px;
+    margin-left: 402px;
+    transition-duration: 1s;
+}
+
+#botaoinicio:hover {
+    color: white;
+    background-color: black;
+}
+
+form {
+    margin-top: -16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 562px;
+    border-radius: 10px;
+}
+
+form #labelfoto {
+    margin-left: 103px;
+}
+
+form #labelestado {
+    margin-left: -51px;
+}
+
+form #labelsatisf {
+    margin-left: 6px;
+}
+
+form #labelprof {
+    margin-left: -56px;
+}
+
+form #labeltel {
+    margin-left: -92px;
+}
+
+form #labelsenha {
+    margin-left: 10px;
+}
+
+form #ifem {
+    margin-left: 11px;
+}
+
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    height: 100px;
+    margin: 80px -8px -8px -8px;
+    padding-top: 29px;
+}
+
+footer > p > a {
+    color: red;
+    transition-duration: 1s;
+    font-family: var(--Alkatra);
+    margin-left: 5px;
+}
+
+footer > p > a:hover {
+    color: yellow;
+}
+
+#copyright {
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+

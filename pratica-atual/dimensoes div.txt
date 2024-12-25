@@ -1,0 +1,8 @@
+Dimensões da div para hover
+
+background-color: color:
+text-align: center;
+border: 1px solid black;
+height: 200px;
+width: 200px;
+

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor01: white;
+    --cor02: black;
+    --cor03: red;
+    --bebas-neue: 'Bebas Neue', 'cursive';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--bebas-neue);
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+header {
+    margin-top: 65px;
+}
+
+header h1 {
+    font-family: var(--bebas-neue);
+    font-size: 2.4em;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li {
+    display: inline-block;
+    margin-left: 332px;
+}
+
+li > a {
+    color: var(--cor01);
+    font-weight: lighter;
+    font-size: 1.7em;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: red;
+    letter-spacing: 7px;
+    transition-duration: .7s;
+}

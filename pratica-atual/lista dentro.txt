@@ -1,0 +1,1 @@
+list-style-position: inside  - Para a lista da div ficar ao lado do texto (dentro)

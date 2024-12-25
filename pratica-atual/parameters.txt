@@ -1,0 +1,20 @@
+<audio>
+-preload (metadata, auto, none)
+-autoplay
+-controls
+-loop
+
+<video>
+-width
+-height
+-controls
+-poster
+-autoplay
+
+<a>
+-target
+-rel
+-hreflang
+(baixar)
+-download
+-type

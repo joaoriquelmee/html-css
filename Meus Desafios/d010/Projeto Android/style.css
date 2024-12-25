@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Android';
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    width: auto;
+    height: 173px;
+    margin: -8px;
+    padding: 10px;
+    box-shadow: 4px 3px 8px 2px rgba(0, 0, 0, 0.445);
+    background-image: linear-gradient(to top, #033D1B, #146B39, #1A7D44, #269A59);
+    text-align: center;
+}
+
+#tituloprincipal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#paragrafocabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #81ecaf;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#nav1 {
+    display: inline-block;
+    width: 43px;
+    height: 17px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#nav1:hover {
+    background-color: #2CA467;
+    color: #033D1B;
+}
+
+#nav2 {
+    display: inline-block;
+    width: 56px;
+    height: 17px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#nav2:hover {
+    background-color: #2CA467;
+    color: #033D1B;
+}
+
+#nav3 {
+    display: inline-block;
+    width: 96px;
+    height: 17px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#nav3:hover {
+    background-color: #2CA467;
+    color: #033D1B;
+}
+
+#nav4 {
+    display: inline-block;
+    width: 100px;
+    height: 17px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#nav4:hover {
+    background-color: #2CA467;
+    color: #033D1B;
+}
+
+body {
+    background-color: #E8E5C2;
+    text-align: center;
+}
+
+.android {
+    font-family: Android, cursive;
+    color: #055727;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#leftlist {
+    display: inline-block;
+    text-align: left;
+    width: 189px;
+    margin-left: -348px;
+    margin-right: -276px;
+}
+
+#rightlist {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 494px;
+    margin-bottom: -5px;
+}
+
+#t1 {
+    padding-left: 23px;
+}
+
+#t3 {
+    padding-left: 7px;
+}
+
+#t4 {
+    padding-left: 45px;
+}
+
+#t5 {
+    padding-left: 3px;
+}
+
+#t6 {
+    padding-right: 11px;
+}
+
+#t7 {
+    padding-right: 23px;
+}
+
+li::before {
+    content: '✔  ';
+}
+
+#titarticle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    background-color: #033D1B;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+article {
+    background-color: #7DDCA6;
+    border-radius: 10px;
+    height: 439px;
+    box-shadow: 0px 0px 5px 4px #00000024;
+}
+
+main {
+    width: 965px;
+    height: 2356px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 4px #00000024;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 38px;
+    margin-top: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#h2back {
+    background-image: linear-gradient(to right, #96E6B6, #a6eac277, #d8f6e400);
+    padding-left: 12px;
+}
+
+iframe {
+    width: 853px;
+    height: 493px;
+    margin-left: -10px;
+    margin-top: 1px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    border-top: 29px solid #033D1B;
+    border-right: 66px solid #033D1B;
+    border-bottom: 29px solid #033D1B;
+    border-left: 66px solid #033D1B;
+}
+
+p {
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    margin: -8px;
+    height: 22px;
+    background-color: #033D1B;
+    text-align: center;
+    padding-top: 1px;
+    color: white;
+    font-weight: light;
+}
+
+.textfooter {
+    font-weight: bolder;
+    color: white;
+}
+
+strong {
+    color: #055727;
+}
+
+.backlinks {
+    background-color: #96E6B6;
+    text-decoration: none;
+    color: #055727;
+    padding: 3px;
+}
+
+.backlinks::after {
+    content: '🔗';
+}
